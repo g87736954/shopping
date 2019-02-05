@@ -14,6 +14,8 @@
 		CE9E8C07220960F200A476AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9E8C05220960F200A476AA /* LaunchScreen.storyboard */; };
 		CE9E8C12220960F200A476AA /* shoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E8C11220960F200A476AA /* shoppingTests.swift */; };
 		CE9E8C1D220960F200A476AA /* shoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E8C1C220960F200A476AA /* shoppingUITests.swift */; };
+		CE9E8C2B220961EE00A476AA /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E8C2A220961EE00A476AA /* MyCollectionViewCell.swift */; };
+		CE9E8C2D220966ED00A476AA /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E8C2C220966ED00A476AA /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CE9E8C18220960F200A476AA /* shoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9E8C1C220960F200A476AA /* shoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoppingUITests.swift; sourceTree = "<group>"; };
 		CE9E8C1E220960F200A476AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9E8C2A220961EE00A476AA /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CE9E8C2C220966ED00A476AA /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				CE9E8BFC220960E400A476AA /* AppDelegate.swift */,
 				CE9E8BFE220960E400A476AA /* ViewController.swift */,
 				CE9E8C00220960E400A476AA /* Main.storyboard */,
+				CE9E8C2C220966ED00A476AA /* MyTableViewController.swift */,
+				CE9E8C2A220961EE00A476AA /* MyCollectionViewCell.swift */,
 				CE9E8C03220960F200A476AA /* Assets.xcassets */,
 				CE9E8C05220960F200A476AA /* LaunchScreen.storyboard */,
 				CE9E8C08220960F200A476AA /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				CE9E8BFF220960E400A476AA /* ViewController.swift in Sources */,
 				CE9E8BFD220960E400A476AA /* AppDelegate.swift in Sources */,
+				CE9E8C2B220961EE00A476AA /* MyCollectionViewCell.swift in Sources */,
+				CE9E8C2D220966ED00A476AA /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
