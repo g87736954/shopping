@@ -18,23 +18,8 @@ class MyTableViewController: UITableViewController,UICollectionViewDelegate ,UIC
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // ...In viewDidLoad()
-        // 1.
-        let containerView = UIView()
-        containerView.translatesAutoresizingMaskIntoConstraints = false
-        // headerView is your actual content.
-        containerView.addSubview(headerView)
-        
-        // 2.
-        self.tableView.tableHeaderView = containerView
-        // 3.
-        containerView.centerXAnchor.constraint(equalTo: self.tableView.centerXAnchor).isActive = true
-        containerView.widthAnchor.constraint(equalTo: self.tableView.widthAnchor).isActive = true
-        containerView.topAnchor.constraint(equalTo: self.tableView.topAnchor).isActive = true
-        // 4.
-        self.tableView.tableHeaderView?.layoutIfNeeded()
-        self.tableView.tableHeaderView = self.tableView.tableHeaderView
-        mycollectionview.dataSource = self
+
+      mycollectionview.dataSource = self
         mycollectionview.delegate = self
         Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(changeBanner), userInfo: nil, repeats: true)
     }
